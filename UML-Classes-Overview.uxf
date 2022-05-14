@@ -4,46 +4,46 @@
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>504</x>
-      <y>539</y>
+      <x>448</x>
+      <y>560</y>
       <w>70</w>
       <h>21</h>
     </coordinates>
     <panel_attributes>lt=&lt;&lt;&lt;&lt;-
-group=group-7</panel_attributes>
+group=group-1</panel_attributes>
     <additional_attributes>10.0;10.0;80.0;10.0</additional_attributes>
   </element>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>623</x>
-      <y>378</y>
+      <x>574</x>
+      <y>413</y>
       <w>70</w>
       <h>21</h>
     </coordinates>
     <panel_attributes>lt=.&gt;
-layer=3
-group=group-9</panel_attributes>
+group=group-9
+layer=4</panel_attributes>
     <additional_attributes>10.0;10.0;80.0;10.0</additional_attributes>
   </element>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>504</x>
-      <y>462</y>
+      <x>448</x>
+      <y>483</y>
       <w>70</w>
       <h>21</h>
     </coordinates>
     <panel_attributes>lt=-&gt;
 layer=2
-group=group-7</panel_attributes>
+group=group-0</panel_attributes>
     <additional_attributes>10.0;10.0;80.0;10.0</additional_attributes>
   </element>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>763</x>
-      <y>462</y>
+      <x>707</x>
+      <y>483</y>
       <w>70</w>
       <h>21</h>
     </coordinates>
@@ -54,8 +54,8 @@ group=group-8</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>763</x>
-      <y>532</y>
+      <x>707</x>
+      <y>553</y>
       <w>70</w>
       <h>21</h>
     </coordinates>
@@ -66,12 +66,13 @@ group=group-8</panel_attributes>
   <element>
     <id>UMLNote</id>
     <coordinates>
-      <x>217</x>
-      <y>595</y>
+      <x>161</x>
+      <y>616</y>
       <w>140</w>
       <h>63</h>
     </coordinates>
-    <panel_attributes>Composition
+    <panel_attributes>bg=yellow
+Composition
 "consist of" - relation
 object is composed of one
 or more instances of the
@@ -81,13 +82,13 @@ other</panel_attributes>
   <element>
     <id>UMLNote</id>
     <coordinates>
-      <x>616</x>
-      <y>259</y>
+      <x>560</x>
+      <y>280</y>
       <w>140</w>
       <h>63</h>
     </coordinates>
     <panel_attributes>Dependency
-bg=#aabbcc
+bg=yellow
 Weakest type of 
 relation between
 classes</panel_attributes>
@@ -96,110 +97,115 @@ classes</panel_attributes>
   <element>
     <id>UMLNote</id>
     <coordinates>
-      <x>217</x>
+      <x>91</x>
       <y>441</y>
-      <w>140</w>
-      <h>63</h>
+      <w>210</w>
+      <h>84</h>
     </coordinates>
-    <panel_attributes>Association
-One object uses
-or interacts with 
-another</panel_attributes>
+    <panel_attributes>bg=yellow
+Association
+One object uses or interacts with 
+another object. If there are arrow-tips
+on one side then it means that the class
+of the side without a tip can access the
+class on the side with the tip but not in 
+the opposite direction.</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
     <id>UMLNote</id>
     <coordinates>
-      <x>217</x>
-      <y>518</y>
+      <x>161</x>
+      <y>539</y>
       <w>140</w>
       <h>63</h>
     </coordinates>
-    <panel_attributes>Aggregation
+    <panel_attributes>bg=yellow
+Aggregation
 "has a" - relation</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>679</x>
-      <y>371</y>
+      <x>630</x>
+      <y>406</y>
       <w>70</w>
       <h>28</h>
     </coordinates>
     <panel_attributes>Class B
-layer=2
-group=group-9</panel_attributes>
+group=group-9
+layer=3</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>560</x>
-      <y>371</y>
+      <x>511</x>
+      <y>406</y>
       <w>70</w>
       <h>28</h>
     </coordinates>
     <panel_attributes>Class A
-layer=2
-group=group-9</panel_attributes>
+group=group-9
+layer=3</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>560</x>
-      <y>455</y>
+      <x>504</x>
+      <y>476</y>
       <w>70</w>
       <h>28</h>
     </coordinates>
     <panel_attributes>Class B
 layer=1
-group=group-7</panel_attributes>
+group=group-0</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>441</x>
-      <y>455</y>
+      <x>385</x>
+      <y>476</y>
       <w>70</w>
       <h>28</h>
     </coordinates>
     <panel_attributes>Class A
 layer=1
-group=group-7</panel_attributes>
+group=group-0</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>441</x>
-      <y>532</y>
+      <x>385</x>
+      <y>553</y>
       <w>70</w>
       <h>28</h>
     </coordinates>
     <panel_attributes>Class A
-group=group-7</panel_attributes>
+group=group-1</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>560</x>
-      <y>532</y>
+      <x>504</x>
+      <y>553</y>
       <w>70</w>
       <h>28</h>
     </coordinates>
     <panel_attributes>Class B
-group=group-7</panel_attributes>
+group=group-1</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>700</x>
-      <y>455</y>
+      <x>644</x>
+      <y>476</y>
       <w>70</w>
       <h>28</h>
     </coordinates>
@@ -210,8 +216,8 @@ group=group-8</panel_attributes>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>819</x>
-      <y>455</y>
+      <x>763</x>
+      <y>476</y>
       <w>70</w>
       <h>28</h>
     </coordinates>
@@ -222,19 +228,20 @@ group=group-8</panel_attributes>
   <element>
     <id>UMLNote</id>
     <coordinates>
-      <x>945</x>
-      <y>518</y>
+      <x>889</x>
+      <y>539</y>
       <w>140</w>
       <h>63</h>
     </coordinates>
-    <panel_attributes>Inheritance</panel_attributes>
+    <panel_attributes>bg=yellow
+Inheritance</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>700</x>
-      <y>525</y>
+      <x>644</x>
+      <y>546</y>
       <w>70</w>
       <h>28</h>
     </coordinates>
@@ -245,8 +252,8 @@ group=group-8</panel_attributes>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>819</x>
-      <y>525</y>
+      <x>763</x>
+      <y>546</y>
       <w>70</w>
       <h>28</h>
     </coordinates>
@@ -257,103 +264,101 @@ group=group-8</panel_attributes>
   <element>
     <id>UMLNote</id>
     <coordinates>
-      <x>945</x>
-      <y>441</y>
+      <x>889</x>
+      <y>462</y>
       <w>140</w>
       <h>63</h>
     </coordinates>
-    <panel_attributes>Implementation</panel_attributes>
+    <panel_attributes>bg=yellow
+Implementation</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
     <id>UMLPackage</id>
     <coordinates>
-      <x>413</x>
-      <y>427</y>
+      <x>357</x>
+      <y>448</y>
       <w>245</w>
       <h>259</h>
     </coordinates>
     <panel_attributes>Association
 --
 bg=#ffffff
-layer=-1
-group=group-7</panel_attributes>
+layer=-2</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
     <id>UMLPackage</id>
     <coordinates>
-      <x>420</x>
-      <y>497</y>
+      <x>364</x>
+      <y>518</y>
       <w>231</w>
       <h>168</h>
     </coordinates>
     <panel_attributes>Aggregation
 --
 bg=#eeeeee
-layer=0
-group=group-7</panel_attributes>
+layer=-1</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
     <id>UMLPackage</id>
     <coordinates>
-      <x>427</x>
-      <y>574</y>
+      <x>371</x>
+      <y>595</y>
       <w>217</w>
       <h>84</h>
     </coordinates>
     <panel_attributes>Composition
 --
 bg=#dddddd
-layer=1
-group=group-7</panel_attributes>
+layer=1</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>504</x>
-      <y>616</y>
+      <x>448</x>
+      <y>637</y>
       <w>70</w>
       <h>21</h>
     </coordinates>
     <panel_attributes>lt=&lt;&lt;&lt;&lt;&lt;-
 layer=3
-group=group-7</panel_attributes>
+group=group-2</panel_attributes>
     <additional_attributes>10.0;10.0;80.0;10.0</additional_attributes>
   </element>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>560</x>
-      <y>609</y>
+      <x>504</x>
+      <y>630</y>
       <w>70</w>
       <h>28</h>
     </coordinates>
     <panel_attributes>Class B
 layer=2
-group=group-7</panel_attributes>
+group=group-2</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>441</x>
-      <y>609</y>
+      <x>385</x>
+      <y>630</y>
       <w>70</w>
       <h>28</h>
     </coordinates>
     <panel_attributes>Class A
 layer=2
-group=group-7</panel_attributes>
+group=group-2</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
     <id>UMLPackage</id>
     <coordinates>
-      <x>679</x>
-      <y>427</y>
+      <x>623</x>
+      <y>448</y>
       <w>231</w>
       <h>154</h>
     </coordinates>
@@ -367,8 +372,8 @@ group=group-8</panel_attributes>
   <element>
     <id>UMLPackage</id>
     <coordinates>
-      <x>686</x>
-      <y>497</y>
+      <x>630</x>
+      <y>518</y>
       <w>217</w>
       <h>70</h>
     </coordinates>
@@ -382,12 +387,12 @@ group=group-8</panel_attributes>
   <element>
     <id>UMLPackage</id>
     <coordinates>
-      <x>392</x>
-      <y>322</y>
+      <x>336</x>
+      <y>343</y>
       <w>532</w>
       <h>378</h>
     </coordinates>
-    <panel_attributes>bg=#aaff55
+    <panel_attributes>
 layer=-3
 </panel_attributes>
     <additional_attributes/>
@@ -395,8 +400,8 @@ layer=-3
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>616</x>
-      <y>343</y>
+      <x>567</x>
+      <y>378</y>
       <w>77</w>
       <h>21</h>
     </coordinates>
@@ -406,14 +411,15 @@ Dependency
 
 
 
-group=group-9</panel_attributes>
+group=group-9
+layer=1</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
     <id>UMLNote</id>
     <coordinates>
-      <x>364</x>
-      <y>119</y>
+      <x>70</x>
+      <y>28</y>
       <w>357</w>
       <h>84</h>
     </coordinates>
@@ -432,8 +438,8 @@ derived (/)
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>833</x>
-      <y>35</y>
+      <x>476</x>
+      <y>28</y>
       <w>329</w>
       <h>70</h>
     </coordinates>
@@ -447,8 +453,8 @@ derived (/)
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>833</x>
-      <y>196</y>
+      <x>476</x>
+      <y>189</y>
       <w>329</w>
       <h>63</h>
     </coordinates>
@@ -462,8 +468,8 @@ derived (/)
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>833</x>
-      <y>112</y>
+      <x>476</x>
+      <y>105</y>
       <w>329</w>
       <h>70</h>
     </coordinates>
@@ -479,27 +485,131 @@ derived (/)
   <element>
     <id>UMLNote</id>
     <coordinates>
-      <x>1190</x>
-      <y>119</y>
+      <x>833</x>
+      <y>112</y>
       <w>140</w>
       <h>56</h>
     </coordinates>
-    <panel_attributes>An abstract Class
+    <panel_attributes>bg=yellow
+An abstract Class
 can only be inheritted
-No Object creation!</panel_attributes>
+No Object creation!
+</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
     <id>UMLNote</id>
     <coordinates>
-      <x>1190</x>
-      <y>210</y>
+      <x>833</x>
+      <y>203</y>
       <w>140</w>
       <h>42</h>
     </coordinates>
-    <panel_attributes>An Interface has no 
+    <panel_attributes>bg=yellow
+An Interface has no 
 attributes only methods
 No Object creation!</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>378</x>
+      <y>847</y>
+      <w>70</w>
+      <h>28</h>
+    </coordinates>
+    <panel_attributes>Book
+layer=2</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>441</x>
+      <y>854</y>
+      <w>119</w>
+      <h>28</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;&lt;&lt;&lt;-
+layer=3
+m1=1
+m2=1..*</panel_attributes>
+    <additional_attributes>10.0;10.0;150.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>546</x>
+      <y>847</y>
+      <w>70</w>
+      <h>28</h>
+    </coordinates>
+    <panel_attributes>Pages
+layer=2</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>441</x>
+      <y>777</y>
+      <w>119</w>
+      <h>28</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;&lt;&lt;-
+m2=0..4</panel_attributes>
+    <additional_attributes>10.0;10.0;150.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>378</x>
+      <y>770</y>
+      <w>70</w>
+      <h>28</h>
+    </coordinates>
+    <panel_attributes>Car</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>546</x>
+      <y>770</y>
+      <w>70</w>
+      <h>28</h>
+    </coordinates>
+    <panel_attributes>Wheel</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLNote</id>
+    <coordinates>
+      <x>161</x>
+      <y>756</y>
+      <w>140</w>
+      <h>63</h>
+    </coordinates>
+    <panel_attributes>bg=yellow
+Example for Aggregation
+"has a" - relation
+
+A car has a wheel</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLNote</id>
+    <coordinates>
+      <x>161</x>
+      <y>833</y>
+      <w>140</w>
+      <h>63</h>
+    </coordinates>
+    <panel_attributes>bg=yellow
+Composition
+"consist of" - relation
+A book consists of pages</panel_attributes>
     <additional_attributes/>
   </element>
 </diagram>
