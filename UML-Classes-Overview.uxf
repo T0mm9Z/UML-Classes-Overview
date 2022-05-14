@@ -1,0 +1,505 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<diagram program="umlet" version="15.0.0">
+  <zoom_level>7</zoom_level>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>504</x>
+      <y>539</y>
+      <w>70</w>
+      <h>21</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;&lt;&lt;-
+group=group-7</panel_attributes>
+    <additional_attributes>10.0;10.0;80.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>623</x>
+      <y>378</y>
+      <w>70</w>
+      <h>21</h>
+    </coordinates>
+    <panel_attributes>lt=.&gt;
+layer=3
+group=group-9</panel_attributes>
+    <additional_attributes>10.0;10.0;80.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>504</x>
+      <y>462</y>
+      <w>70</w>
+      <h>21</h>
+    </coordinates>
+    <panel_attributes>lt=-&gt;
+layer=2
+group=group-7</panel_attributes>
+    <additional_attributes>10.0;10.0;80.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>763</x>
+      <y>462</y>
+      <w>70</w>
+      <h>21</h>
+    </coordinates>
+    <panel_attributes>lt=.&gt;&gt;
+group=group-8</panel_attributes>
+    <additional_attributes>10.0;10.0;80.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>763</x>
+      <y>532</y>
+      <w>70</w>
+      <h>21</h>
+    </coordinates>
+    <panel_attributes>lt=-&gt;&gt;
+group=group-8</panel_attributes>
+    <additional_attributes>10.0;10.0;80.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLNote</id>
+    <coordinates>
+      <x>217</x>
+      <y>595</y>
+      <w>140</w>
+      <h>63</h>
+    </coordinates>
+    <panel_attributes>Composition
+"consist of" - relation
+object is composed of one
+or more instances of the
+other</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLNote</id>
+    <coordinates>
+      <x>616</x>
+      <y>259</y>
+      <w>140</w>
+      <h>63</h>
+    </coordinates>
+    <panel_attributes>Dependency
+bg=#aabbcc
+Weakest type of 
+relation between
+classes</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLNote</id>
+    <coordinates>
+      <x>217</x>
+      <y>441</y>
+      <w>140</w>
+      <h>63</h>
+    </coordinates>
+    <panel_attributes>Association
+One object uses
+or interacts with 
+another</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLNote</id>
+    <coordinates>
+      <x>217</x>
+      <y>518</y>
+      <w>140</w>
+      <h>63</h>
+    </coordinates>
+    <panel_attributes>Aggregation
+"has a" - relation</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>679</x>
+      <y>371</y>
+      <w>70</w>
+      <h>28</h>
+    </coordinates>
+    <panel_attributes>Class B
+layer=2
+group=group-9</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>560</x>
+      <y>371</y>
+      <w>70</w>
+      <h>28</h>
+    </coordinates>
+    <panel_attributes>Class A
+layer=2
+group=group-9</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>560</x>
+      <y>455</y>
+      <w>70</w>
+      <h>28</h>
+    </coordinates>
+    <panel_attributes>Class B
+layer=1
+group=group-7</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>441</x>
+      <y>455</y>
+      <w>70</w>
+      <h>28</h>
+    </coordinates>
+    <panel_attributes>Class A
+layer=1
+group=group-7</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>441</x>
+      <y>532</y>
+      <w>70</w>
+      <h>28</h>
+    </coordinates>
+    <panel_attributes>Class A
+group=group-7</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>560</x>
+      <y>532</y>
+      <w>70</w>
+      <h>28</h>
+    </coordinates>
+    <panel_attributes>Class B
+group=group-7</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>700</x>
+      <y>455</y>
+      <w>70</w>
+      <h>28</h>
+    </coordinates>
+    <panel_attributes>Class A
+group=group-8</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>819</x>
+      <y>455</y>
+      <w>70</w>
+      <h>28</h>
+    </coordinates>
+    <panel_attributes>Class B
+group=group-8</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLNote</id>
+    <coordinates>
+      <x>945</x>
+      <y>518</y>
+      <w>140</w>
+      <h>63</h>
+    </coordinates>
+    <panel_attributes>Inheritance</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>700</x>
+      <y>525</y>
+      <w>70</w>
+      <h>28</h>
+    </coordinates>
+    <panel_attributes>Class A
+group=group-8</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>819</x>
+      <y>525</y>
+      <w>70</w>
+      <h>28</h>
+    </coordinates>
+    <panel_attributes>Class B
+group=group-8</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLNote</id>
+    <coordinates>
+      <x>945</x>
+      <y>441</y>
+      <w>140</w>
+      <h>63</h>
+    </coordinates>
+    <panel_attributes>Implementation</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLPackage</id>
+    <coordinates>
+      <x>413</x>
+      <y>427</y>
+      <w>245</w>
+      <h>259</h>
+    </coordinates>
+    <panel_attributes>Association
+--
+bg=#ffffff
+layer=-1
+group=group-7</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLPackage</id>
+    <coordinates>
+      <x>420</x>
+      <y>497</y>
+      <w>231</w>
+      <h>168</h>
+    </coordinates>
+    <panel_attributes>Aggregation
+--
+bg=#eeeeee
+layer=0
+group=group-7</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLPackage</id>
+    <coordinates>
+      <x>427</x>
+      <y>574</y>
+      <w>217</w>
+      <h>84</h>
+    </coordinates>
+    <panel_attributes>Composition
+--
+bg=#dddddd
+layer=1
+group=group-7</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>504</x>
+      <y>616</y>
+      <w>70</w>
+      <h>21</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;&lt;&lt;&lt;-
+layer=3
+group=group-7</panel_attributes>
+    <additional_attributes>10.0;10.0;80.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>560</x>
+      <y>609</y>
+      <w>70</w>
+      <h>28</h>
+    </coordinates>
+    <panel_attributes>Class B
+layer=2
+group=group-7</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>441</x>
+      <y>609</y>
+      <w>70</w>
+      <h>28</h>
+    </coordinates>
+    <panel_attributes>Class A
+layer=2
+group=group-7</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLPackage</id>
+    <coordinates>
+      <x>679</x>
+      <y>427</y>
+      <w>231</w>
+      <h>154</h>
+    </coordinates>
+    <panel_attributes>Implementation
+--
+bg=#ffffff
+layer=-1
+group=group-8</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLPackage</id>
+    <coordinates>
+      <x>686</x>
+      <y>497</y>
+      <w>217</w>
+      <h>70</h>
+    </coordinates>
+    <panel_attributes>Inheritance
+--
+bg=#eeeeee
+layer=0
+group=group-8</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLPackage</id>
+    <coordinates>
+      <x>392</x>
+      <y>322</y>
+      <w>532</w>
+      <h>378</h>
+    </coordinates>
+    <panel_attributes>bg=#aaff55
+layer=-3
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>616</x>
+      <y>343</y>
+      <w>77</w>
+      <h>21</h>
+    </coordinates>
+    <panel_attributes>halign=center
+Dependency
+
+
+
+
+group=group-9</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLNote</id>
+    <coordinates>
+      <x>364</x>
+      <y>119</y>
+      <w>357</w>
+      <h>84</h>
+    </coordinates>
+    <panel_attributes>*Visibility*
+--
+public (+)
+private (-) only visible in the own class not in derived classes
+protected (#) visible in the complete inheritance path
+package (~) visible inside the same package
+derived (/)
+
+
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>833</x>
+      <y>35</y>
+      <w>329</w>
+      <h>70</h>
+    </coordinates>
+    <panel_attributes>ClassName
+--
+[visibility][/] name [: type][{property}*]
+--
+[visibility] name [(parameter_type*)] [:return_type][{property}*]</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>833</x>
+      <y>196</y>
+      <w>329</w>
+      <h>63</h>
+    </coordinates>
+    <panel_attributes>&lt;&lt;interface&gt;&gt;
+/InterfaceName/
+--
+[visibility] name [(parameter_type*)] [:return_type][{property}*]
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>833</x>
+      <y>112</y>
+      <w>329</w>
+      <h>70</h>
+    </coordinates>
+    <panel_attributes>/AbstractClassName/
+{abstract}
+--
+[visibility][/] name [: type][{property}*]
+--
+[visibility] name [(parameter_type*)] [:return_type][{property}*]
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLNote</id>
+    <coordinates>
+      <x>1190</x>
+      <y>119</y>
+      <w>140</w>
+      <h>56</h>
+    </coordinates>
+    <panel_attributes>An abstract Class
+can only be inheritted
+No Object creation!</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLNote</id>
+    <coordinates>
+      <x>1190</x>
+      <y>210</y>
+      <w>140</w>
+      <h>42</h>
+    </coordinates>
+    <panel_attributes>An Interface has no 
+attributes only methods
+No Object creation!</panel_attributes>
+    <additional_attributes/>
+  </element>
+</diagram>
